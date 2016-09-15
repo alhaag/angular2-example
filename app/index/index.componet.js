@@ -9,23 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var mdl_upgrade_element_directive_1 = require('./shared/mdl-upgrade-element.directive');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'Tour of Heroes';
+//declare var componentHandler: any;
+var IndexComponent = (function () {
+    function IndexComponent() {
     }
-    AppComponent = __decorate([
+    IndexComponent.prototype.ngOnInit = function () { };
+    IndexComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/app.component.html',
-            styleUrls: ['app/app.component.css'],
-            directives: [
-                mdl_upgrade_element_directive_1.MDL
-            ]
+            //moduleId: module.id,
+            selector: 'page-index',
+            templateUrl: 'app/index/index.component.html',
+            styleUrls: ['app/index/index.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], IndexComponent);
+    return IndexComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.IndexComponent = IndexComponent;
+//# sourceMappingURL=index.componet.js.map

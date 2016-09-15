@@ -1,105 +1,10 @@
 <h1>{{title}}</h1>
 <nav>
+    <a routerLink="/" routerLinkActive="active">Index</a>
     <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
     <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+    <a routerLink="/hero-form" routerLinkActive="active">Hero Form</a>
 </nav>
+<hr>
 <router-outlet></router-outlet>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-    Button
-</button>
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-    <i class="material-icons">add</i>
-</button>
-<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-    <thead>
-    <tr>
-        <th class="mdl-data-table__cell--non-numeric">Material</th>
-        <th>Quantity</th>
-        <th>Unit price</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
-        <td>25</td>
-        <td>$2.90</td>
-    </tr>
-    <tr>
-        <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-        <td>50</td>
-        <td>$1.25</td>
-    </tr>
-    <tr>
-        <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-        <td>10</td>
-        <td>$2.35</td>
-    </tr>
-    </tbody>
-</table>
-
-<button id="show-dialog" type="button" class="mdl-button">Show Dialog</button>
-<dialog class="mdl-dialog">
-    <h4 class="mdl-dialog__title">Allow data collection?</h4>
-    <div class="mdl-dialog__content">
-        <p>
-            Allowing us to collect data will let us get you the information you want faster.
-        </p>
-    </div>
-    <div class="mdl-dialog__actions">
-        <button type="button" class="mdl-button">Agree</button>
-        <button type="button" class="mdl-button close">Disagree</button>
-    </div>
-</dialog>
-<script>
-    var dialog = document.querySelector('dialog');
-    var showDialogButton = document.querySelector('#show-dialog');
-    if (! dialog.showModal) {
-        dialogPolyfill.registerDialog(dialog);
-    }
-    showDialogButton.addEventListener('click', function() {
-        dialog.showModal();
-    });
-    dialog.querySelector('.close').addEventListener('click', function() {
-        dialog.close();
-    });
-</script>
-<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
-    <div class="mdl-tabs__tab-bar">
-        <a href="#about-panel" class="mdl-tabs__tab is-active">About the Beatles</a>
-        <a href="#members-panel" class="mdl-tabs__tab">Members</a>
-        <a href="#albums-panel" class="mdl-tabs__tab">Discography</a>
-    </div>
-    <div class="mdl-tabs__panel is-active" id="about-panel">
-        <p><b>The Beatles</b> were a four-piece musical group from Liverpool, England.
-            Formed in 1960, their career spanned just over a decade, yet they are widely
-            regarded as the most influential band in history.</p>
-        <p>Their songs are among the best-loved music of all time. It is said that every
-            minute of every day, a radio station somewhere is playing a Beatles song.</p>
-    </div>
-    <div class="mdl-tabs__panel" id="members-panel">
-        <p>The Beatles' members were:</p>
-        <ul>
-            <li>John Lennon (1940-1980)</li>
-            <li>Paul McCartney (1942-)</li>
-            <li>George Harrison (1943-2001)</li>
-            <li>Ringo Starr (1940-)</li>
-        </ul>
-    </div>
-    <div class="mdl-tabs__panel" id="albums-panel">
-        <p>The Beatles' original UK LPs, in order of release:</p>
-        <ol>
-            <li>Please Please Me (1963)</li>
-            <li>With the Beatles (1963)</li>
-            <li>A Hard Day's Night (1964)</li>
-            <li>Beatles for Sale (1964)</li>
-            <li>Help! (1965)</li>
-            <li>Rubber Soul (1965)</li>
-            <li>Revolver (1966)</li>
-            <li>Sgt. Pepper's Lonely Hearts Club Band (1967)</li>
-            <li>The Beatles ("The White Album", 1968)</li>
-            <li>Yellow Submarine (1969)</li>
-            <li>Abbey Road (1969)</li>
-            <li>Let It Be (1970)</li>
-        </ol>
-    </div>
-</div>
+<hr>
