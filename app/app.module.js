@@ -17,7 +17,7 @@ var http_1 = require('@angular/http');
 var angular2_in_memory_web_api_1 = require('angular2-in-memory-web-api');
 var in_memory_data_service_1 = require('./in-memory-data.service');
 var app_component_1 = require('./app.component');
-var index_componet_1 = require('./index/index.componet');
+var index_1 = require('./home/index');
 var dashboard_component_1 = require('./heroes/dashboard/dashboard.component');
 var heroes_component_1 = require('./heroes/heroes/heroes.component');
 var hero_detail_component_1 = require('./heroes/hero-detail/hero-detail.component');
@@ -47,7 +47,7 @@ var AppModule = (function () {
                 hero_form_component_1.HeroFormComponent,
                 heroes_component_1.HeroesComponent,
                 hero_search_component_1.HeroSearchComponent,
-                index_componet_1.IndexComponent,
+                index_1.HomeComponent,
                 mdl_upgrade_element_directive_1.MDL
             ],
             // Service factory que este módulo contribui para a coleta global de serviços; eles se tornam acessíveis em todas as partes do aplicativo.

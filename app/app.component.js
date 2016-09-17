@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var mdl_upgrade_element_directive_1 = require('./shared/mdl-upgrade-element.directive');
+//import { MDL } from './shared/mdl-upgrade-element.directive';
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Tour of Heroes';
@@ -19,9 +19,6 @@ var AppComponent = (function () {
             selector: 'my-app',
             templateUrl: 'app/app.component.html',
             styleUrls: ['app/app.component.css'],
-            directives: [
-                mdl_upgrade_element_directive_1.MDL
-            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

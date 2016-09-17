@@ -5,7 +5,6 @@
  * @see https://denisvuyka.github.io/2016/06/06/angular2-material.html
  * @see http://stackoverflow.com/questions/37875801/using-angular2-with-material-design-lite
  */
-
 import {Directive, AfterViewChecked} from '@angular/core';
 
 declare var componentHandler: any;

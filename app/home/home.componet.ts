@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+
 //declare var componentHandler: any;
 @Component({
     //moduleId: module.id,
     selector: 'page-index',
-    templateUrl: 'app/index/index.component.html',
-    styleUrls: ['app/index/index.component.css']
+    templateUrl: 'app/home/home.component.html',
+    styleUrls: ['app/home/home.component.css']
 })
-export class IndexComponent implements OnInit {
+export class HomeComponent implements OnInit {
     constructor() { }
 
     ngOnInit() { }

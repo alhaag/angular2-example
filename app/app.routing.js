@@ -4,7 +4,7 @@ var dashboard_component_1 = require('./heroes/dashboard/dashboard.component');
 var heroes_component_1 = require('./heroes/heroes/heroes.component');
 var hero_detail_component_1 = require('./heroes/hero-detail/hero-detail.component');
 var hero_form_component_1 = require('./heroes/hero-form/hero-form.component');
-var index_componet_1 = require('./index/index.componet');
+var index_1 = require('./home/index');
 var appRoutes = [
     /*{
         path: '',
@@ -13,7 +13,7 @@ var appRoutes = [
     },*/
     {
         path: '',
-        component: index_componet_1.IndexComponent
+        component: index_1.HomeComponent
     },
     {
         path: 'dashboard',

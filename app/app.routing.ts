@@ -5,7 +5,7 @@ import { DashboardComponent }   from './heroes/dashboard/dashboard.component';
 import { HeroesComponent }      from './heroes/heroes/heroes.component';
 import { HeroDetailComponent }  from './heroes/hero-detail/hero-detail.component';
 import { HeroFormComponent }    from './heroes/hero-form/hero-form.component';
-import { IndexComponent }       from './index/index.componet';
+import { HomeComponent }        from './home/index';
 
 const appRoutes: Routes = [
     /*{
@@ -15,7 +15,7 @@ const appRoutes: Routes = [
     },*/
     {
         path: '',
-        component: IndexComponent
+        component: HomeComponent
     },
     {
         path: 'dashboard',

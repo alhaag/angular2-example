@@ -1,10 +1,3 @@
-/**
- * Diretiva responsável por fazer o upgrade de elementos que possuam a diretiva "mdl"
- * para viabilizar o correto funcionamento de funções javascript do MDL(Material Design Lite)
- *
- * @see https://denisvuyka.github.io/2016/06/06/angular2-material.html
- * @see http://stackoverflow.com/questions/37875801/using-angular2-with-material-design-lite
- */
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -15,6 +8,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+/**
+ * Diretiva responsável por fazer o upgrade de elementos que possuam a diretiva "mdl"
+ * para viabilizar o correto funcionamento de funções javascript do MDL(Material Design Lite)
+ *
+ * @see https://denisvuyka.github.io/2016/06/06/angular2-material.html
+ * @see http://stackoverflow.com/questions/37875801/using-angular2-with-material-design-lite
+ */
 var core_1 = require('@angular/core');
 var MDL = (function () {
     function MDL() {

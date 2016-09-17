@@ -10,20 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 //declare var componentHandler: any;
-var IndexComponent = (function () {
-    function IndexComponent() {
+var HomeComponent = (function () {
+    function HomeComponent() {
     }
-    IndexComponent.prototype.ngOnInit = function () { };
-    IndexComponent = __decorate([
+    HomeComponent.prototype.ngOnInit = function () { };
+    HomeComponent = __decorate([
         core_1.Component({
             //moduleId: module.id,
             selector: 'page-index',
-            templateUrl: 'app/index/index.component.html',
-            styleUrls: ['app/index/index.component.css']
+            templateUrl: 'app/home/home.component.html',
+            styleUrls: ['app/home/home.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], IndexComponent);
-    return IndexComponent;
+    ], HomeComponent);
+    return HomeComponent;
 }());
-exports.IndexComponent = IndexComponent;
-//# sourceMappingURL=index.componet.js.map
+exports.HomeComponent = HomeComponent;
+//# sourceMappingURL=home.componet.js.map

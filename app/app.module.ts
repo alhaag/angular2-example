@@ -10,7 +10,7 @@ import { InMemoryWebApiModule } from 'angular2-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 import { AppComponent }         from './app.component';
-import { IndexComponent }       from './index/index.componet';
+import { HomeComponent }        from './home/index';
 import { DashboardComponent }   from './heroes/dashboard/dashboard.component';
 import { HeroesComponent }      from './heroes/heroes/heroes.component';
 import { HeroDetailComponent }  from './heroes/hero-detail/hero-detail.component';
@@ -37,7 +37,7 @@ import { MDL }                  from './shared/mdl-upgrade-element.directive';
         HeroFormComponent,
         HeroesComponent,
         HeroSearchComponent,
-        IndexComponent,
+        HomeComponent,
         MDL
     ],
     // Service factory que este módulo contribui para a coleta global de serviços; eles se tornam acessíveis em todas as partes do aplicativo.
